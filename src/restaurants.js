@@ -4,59 +4,31 @@
 const restaurants = [
   {
     id: 1,
-    name: "Joe's Pizza",
+    name: "Magnone's Italian Kitchen",
     cuisine: "Italian",
-    address: "7 Carmine St, New York, NY",
-    description: "Classic NYC slice joint, cash only, always a line for a reason."
+    address: "190 Jozo Weider Blvd #1, The Blue Mountains, ON",
+    description: "Cozy Italian kitchen in Blue Mountain Village serving classic pasta, pizza, and more."
   },
   {
     id: 2,
-    name: "Xi'an Famous Foods",
-    cuisine: "Chinese",
-    address: "81 St Marks Pl, New York, NY",
-    description: "Hand-ripped noodles and spicy lamb face salad from Xi'an province."
+    name: "Mother Tongue Asian Bistro & Cocktail Bar - Blue Mountain",
+    cuisine: "Asian Fusion",
+    address: "166 Jozo Weider Blvd, The Blue Mountains, ON",
+    description: "Asian fusion bistro overlooking the Millpond in Blue Mountain Village, with creative cocktails."
   },
   {
     id: 3,
-    name: "Superiority Burger",
-    cuisine: "Vegetarian",
-    address: "119 Avenue A, New York, NY",
-    description: "Cult-favorite veggie burgers that even meat-eaters crave."
+    name: "Kaytoo Restaurant & Bar",
+    cuisine: "Canadian",
+    address: "176 Jozo Weider Blvd, The Blue Mountains, ON",
+    description: "Casual spot at Blue Mountain serving Canadian fare including steaks, pasta, burgers, and perogies."
   },
   {
     id: 4,
-    name: "Hometown Bar-B-Que",
-    cuisine: "BBQ",
-    address: "454 Van Brunt St, Brooklyn, NY",
-    description: "Texas-style brisket smoked low and slow in Red Hook."
-  },
-  {
-    id: 5,
-    name: "Dirt Candy",
-    cuisine: "Vegetarian",
-    address: "86 Allen St, New York, NY",
-    description: "Fine-dining vegetable-forward restaurant that changed how people think about meatless cooking."
-  },
-  {
-    id: 6,
-    name: "Prince Street Pizza",
-    cuisine: "Italian",
-    address: "27 Prince St, New York, NY",
-    description: "Famous for their pepperoni cups and crispy Sicilian squares."
-  },
-  {
-    id: 7,
-    name: "Taqueria al Pastor",
-    cuisine: "Mexican",
-    address: "204 Allen St, New York, NY",
-    description: "No-frills tacos al pastor with pineapple, made fresh on a trompo."
-  },
-  {
-    id: 8,
-    name: "Lucali",
-    cuisine: "Italian",
-    address: "575 Henry St, Brooklyn, NY",
-    description: "BYOB pizza institution in Carroll Gardens with a long wait and worth every minute."
+    name: "Copper Blues",
+    cuisine: "Bar & Grill",
+    address: "156 Jozo Weider Blvd #3, The Blue Mountains, ON",
+    description: "Lively bar and grill in Blue Mountain Village known for steaks, seafood, and a great drinks list."
   }
 ]
 
