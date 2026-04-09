@@ -4,7 +4,7 @@
 const restaurants = [
   {
     id: 1,
-    name: "Magnone's Italian Kitchen!",
+    name: "Magnone's Italian Kitchen",
     cuisine: "Italian",
     address: "190 Jozo Weider Blvd #1, The Blue Mountains, ON",
     description: "Cozy Italian kitchen in Blue Mountain Village serving classic pasta, pizza, and more."
