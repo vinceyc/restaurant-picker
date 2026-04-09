@@ -2,17 +2,16 @@
  * Reads src/restaurants.js and rewrites docs/restaurants.md to match.
  * Called by the sync-code-to-docs workflow when code changes.
  */
-import Anthropic from '@anthropic-ai/sdk'
+import OpenAI from 'openai'
 import { readFileSync, writeFileSync } from 'fs'
 
-const client = new Anthropic()
+const client = new OpenAI()
 
 const currentDocs = readFileSync('docs/restaurants.md', 'utf-8')
 const jsContent = readFileSync('src/restaurants.js', 'utf-8')
 
-const response = await client.messages.create({
-  model: 'claude-opus-4-6',
-  max_tokens: 3000,
+const response = await client.chat.completions.create({
+  model: 'gpt-4o',
   messages: [
     {
       role: 'user',
@@ -35,6 +34,6 @@ ${jsContent}`,
   ],
 })
 
-const mdContent = response.content[0].text.trim()
+const mdContent = response.choices[0].message.content.trim()
 writeFileSync('docs/restaurants.md', mdContent + '\n')
 console.log('Updated docs/restaurants.md')
